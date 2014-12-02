@@ -3,6 +3,46 @@ h2, h3, p {
 	margin: 0;
 }
 
+h1, h2 {
+	font-family: 'Cardo', serif;
+}
+
+h1 {
+	color: #5290C8;
+	font-size: 2.2em;
+}
+h2 {
+	font-size: 1.7em;
+	color: #90B6CB;
+}
+
+
+
+.color-1 {
+	background-color: #5290C8;
+}
+
+.color-2 {
+	background-color: #90B6CB
+}
+
+.color-3 {
+	background-color: #38424E;
+}
+
+.color-4 {
+	background-color: #2F84A9;
+}
+
+p {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 1.2em;
+}
+
+
+
+
+
 /* Layout for Style Tile*/
 section {
 	margin: 20px 0;
@@ -11,6 +51,7 @@ section {
 .color-1,
 .color-2,
 .color-3,
+.color-4,
 .pattern-1,
 .pattern-2,
 .pattern-3 {
