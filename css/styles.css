@@ -9,7 +9,12 @@ body {
 	background: url("../img/fabric.png");
 }
 
-
+a {
+	text-decoration: none;
+	color: #2F84A9;
+	font-weight: bold;
+	font-style: italic;
+}
 
 
 /**********************HEADERS****************************/
@@ -64,9 +69,22 @@ h3 {
 
 /**********************PATTERNS****************************/
 
-.pattern-3 {
+.pattern-1 {
+	background: url("../img/fabric.png");
+}
+
+.pattern-2 {
 	background-color: #38424E;
 }
+
+.pattern-3 {
+	background: url("../img/crossword.png");
+}
+
+.pattern-4 {
+	background: url("../img/wavegrid.png");
+}
+
 
 
 
@@ -103,8 +121,9 @@ section {
 .color-6,
 .pattern-1,
 .pattern-2,
-.pattern-3 {
-	border: 2px solid #000;
+.pattern-3,
+.pattern-4 {
+	border: 3px solid #000;
 	float: left;
 	margin: 10px 10px;
 	height: 100px;
