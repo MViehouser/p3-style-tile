@@ -3,21 +3,41 @@ h2, h3, p {
 	margin: 0;
 }
 
-h1, h2 {
-	font-family: 'Cardo', serif;
+/**********************BODY****************************/
+
+body {
+	background: url("../img/fabric.png");
 }
+
+
+
+
+/**********************HEADERS****************************/
 
 h1 {
 	color: #5290C8;
 	font-size: 2.2em;
+	font-family: 'Cardo', serif;
 }
+
 h2 {
+	font-size: 2em;
+	color: #90B6CB;
+	font-family: 'Cardo', serif; 
+	font-weight: 700; 
+	font-style: bold;
+}
+
+h3 {
 	font-size: 1.7em;
 	color: #90B6CB;
+	font-family: 'Cardo', serif; 
+	font-weight: 400; 
+	font-style: italic;
 }
 
 
-
+/**********************COLORS****************************/
 .color-1 {
 	background-color: #5290C8;
 }
@@ -27,18 +47,45 @@ h2 {
 }
 
 .color-3 {
-	background-color: #38424E;
+	background-color: #57A6C4;
 }
 
 .color-4 {
 	background-color: #2F84A9;
 }
 
+.color-5 {
+	background-color: #C6CAD3;
+}
+
+.color-6 {
+	background-color: #38424E;
+}
+
+/**********************PATTERNS****************************/
+
+.pattern-3 {
+	background-color: #38424E;
+}
+
+
+
+
+
+
+/*********************PARAGRAPH*****************************/
+
 p {
 	font-family: 'Gentium Book Basic', serif;
 	font-size: 1.2em;
 }
 
+/**********************CONTAINER****************************/
+
+.container {
+	width: 60%;
+
+}
 
 
 
@@ -52,14 +99,16 @@ section {
 .color-2,
 .color-3,
 .color-4,
+.color-5,
+.color-6,
 .pattern-1,
 .pattern-2,
 .pattern-3 {
-	border: 1px solid #000;
+	border: 2px solid #000;
 	float: left;
-	margin: 0 10px;
-	height: 50px;
-	width: 50px;
+	margin: 10px 10px;
+	height: 100px;
+	width: 100px;
 }
 
 
